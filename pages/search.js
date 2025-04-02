@@ -7,6 +7,7 @@ export default function Search() {
     return (
         <>
             <h1>Search Page</h1>
+            <SearchForm initialValue={q} />
             <h2>{q} 검색 결과</h2>
         </>
     );
