@@ -19,10 +19,12 @@ export default function Home() {
   },[]);
 
   return (
-    <div>
-      <h1>Codeitmall</h1>
-      <SearchForm />
-      <ProductList products={products} />
-    </div>
+    <>
+      <Header />
+      <Container>
+        <SearchForm />
+        <ProductList className={styles.products} products={products} />
+      </Container>
+  </>
   );
 }
