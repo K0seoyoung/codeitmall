@@ -1,13 +1,9 @@
 import ButtonLink from '@/components/ButtonLink';
-import Container from '@/components/Container';
-import Header from '@/components/Header';
 import styles from '@/styles/NotFound.module.css';
 
 export default function NotFound() {
     return (
         <>
-        <Header />
-        <Container>
             <div className={styles.notFound}>
                 <div className={styles.content}>
                     찾을 수 없는 페이지입니다.
@@ -16,7 +12,6 @@ export default function NotFound() {
                 </div>
                 <ButtonLink className={styles.button} href="/">홈으로 이동</ButtonLink>
             </div>
-        </Container>
         </>
     );
 } 
