@@ -35,10 +35,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/items/[id].js"
     ],
-    "/setting": [
+    "/search": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/setting.js"
+      "static/chunks/pages/search.js"
     ]
   },
   "ampFirstPages": []
