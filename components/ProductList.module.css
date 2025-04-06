@@ -83,3 +83,11 @@
     color: #e85b81;
     font-size: 15px;
 }
+
+.likeCount {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    color: #e85b81;
+    font-size: 15px;
+}

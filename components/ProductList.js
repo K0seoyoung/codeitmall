@@ -29,7 +29,7 @@ export default function ProductList({ className = '', products }) {
                             {product.starRatingCount.toLocaleString()}
                         </div>
                         <div className={styles.likeCount}>
-                            ♥
+                            <Image src={heartImage} alt="좋아요" />
                             {product.likeCount.toLocaleString()}
                         </div>
                     </div>
