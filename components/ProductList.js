@@ -2,6 +2,7 @@ import Link from 'next/link';
 import styles from './ProductList.module.css';
 import StarRating from './StarRating';
 import Image from 'next/image';
+import heartImage from '@/public/heart.svg';
 
 export default function ProductList({ className = '', products }) {
     return (
