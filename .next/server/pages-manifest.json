@@ -1,10 +1,7 @@
 {
   "/_app": "pages/_app.js",
-  "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/items/[id]": "pages/items/[id].html",
-  "/search": "pages/search.html",
-  "/404": "pages/404.html",
-  "/setting": "pages/setting.html",
+  "/_document": "pages/_document.js",
+  "/items/[id]": "pages/items/[id].js",
   "/": "pages/index.js"
 }
