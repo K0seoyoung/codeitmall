@@ -12,7 +12,7 @@ export async function getStaticPaths() {
     const res = await axios.get('/products');
     const products = res.data.results;
     const paths = products.map((product)=> ({
-        parmas: { id: String(product.id)},
+        params: { id: String(product.id)},
     }));
 
     return {
